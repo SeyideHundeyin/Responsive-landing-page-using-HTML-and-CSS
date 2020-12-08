@@ -41,13 +41,13 @@ h1{
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 50px;
     padding-left: 40px;
     padding-top: 5%;
     line-height: 1.5;
 }
 p{
-    width: 90%;
+    width: 95%;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -75,7 +75,7 @@ margin-top: 25px;
 .icon{
     display: flex;
     justify-content: flex-end;
-    width: 85%;       
+    width: 87%;       
     
 }
 
@@ -110,7 +110,7 @@ margin-top: 25px;
   a:active{
       opacity: 0.7;
   }
-
+/* mobile design*/
   @media (max-width: 768px) {
       .main{
           margin: 0;
@@ -138,7 +138,8 @@ margin-top: 25px;
     }
     .register{
         width: 85%;
-        text-align: center;        
+        text-align: center;  
+        margin-bottom: 40px;      
         }
         .icon{
             max-width: 768px;
